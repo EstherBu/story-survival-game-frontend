@@ -55,7 +55,7 @@ const Player = () => {
             justify="center"
             style={{ minHeight: '100vh', backgroundColor: 'black' }}>
               <Box mt={4}>
-              <img style={{ width: 550, height: 500,}} src={require('./assets/TheKiller.png')}/>
+              <img style={{ width: 550, height: 500,}} src={require('./assets/The Killer.png')} alt=""/>
               </Box>
            <Box mt={3} mb={0} align='center'>
               <form noValidate autoComplete="off" onSubmit={handleGameStart}>
